@@ -1,0 +1,64 @@
+.diary-wrapper {
+  padding: 20px;
+
+  .sentence {
+    margin: 50px auto 0;
+    max-width: 500px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .author {
+    font-size: 22px;
+    margin-top: 10px;
+  }
+
+  .sectionWr {
+    margin-top: 70px;
+
+    &-title {
+      font-size: 18px;
+      font-weight: 400;
+      font-style: italic;
+      text-align: center;
+    }
+  }
+
+  .pageWrapper {
+    padding: 0 40px;
+
+    textarea,
+    input {
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      border-radius: 0;
+
+      &:focus {
+        box-shadow: none;
+      }
+    }
+
+    &-date {
+      height: 24px;
+      justify-content: center;
+      .form-group {
+        width: 50px;
+        input {
+          height: 24px;
+        }
+      }
+      span {
+        white-space: nowrap;
+      }
+    }
+  }
+}
+
+.form-log {
+  text-align: center;
+  max-width: 300px;
+  margin: auto;
+  margin-top: 100px;
+}
